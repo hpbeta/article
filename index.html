@@ -1,41 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="src/css/reset.css">
-  <link rel="stylesheet" href="src/css/style.css">
-  <link rel="stylesheet" href="src/css/responsive.css">
-  <title>Frontend Mentor | Article preview component</title>
-</head>
-
-<body>
-  <main class="container">
-    <div class="card">
-      <div class="containt-left">
-        <img src="src/images/drawers.jpg" alt="drawers">
-      </div>
-      <div class="containt-right">
-        <h2> Shift the overall look and feel by adding these wonderful
-          touches to furniture in your home</h2>
-        <p class="paragraph">Ever been in a room and felt like something was missing? Perhaps
-          it felt slightly bare and uninviting. I’ve got some simple tips
-          to help you make any room feel complete.</p>
-        <div class="creator">
-          <div class="creator-name">
-            <img class="img" src="src/images/avatar-michelle.jpg" alt="">
-            <p class="name">Michelle Appleton <br><span>28 Jun 2020</span></p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon"type="image/png"sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet"  />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+    <title>Frontend Mentor | Article preview component</title>
+    <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="card">
+        <div class="containt-left">
+          <img src="src/images/drawers.jpg" alt="drawers" />
         </div>
-        <div class="img">
-        <img src="src/images/icon-share.svg" alt="icon-share"></div>
-      </div>
-    </div>
-  </main>
-</body>
 
+        <div class="containt-right">
+          <h2>
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h2>
+          <p class="paragraph">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+
+          <div class="creator">
+            <div class="creator-name">
+              <img
+                class="img"
+                src="src/images/avatar-michelle.jpg"
+                alt="Imagem creator"
+              />
+              <p class="name">
+                Michelle Appleton <br /><span>28 Jun 2020</span>
+              </p>
+            </div>
+
+            <button class="btn-share">
+              <img class="icon-share" src="src/images/icon-share.svg" alt="icon-share" />
+            </button>
+          </div>
+
+          <div class="balao">
+            <span class="text">share</span>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" 
+      integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="  
+      crossorigin="anonymous" referrerpolicy="no-referrer"
+    ></script>
+    <script src="src/js/index.js"></script>
+  </body>
 </html>

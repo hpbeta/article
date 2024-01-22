@@ -1,77 +1,98 @@
-body{
-    font-family: 'Manrope', sans-serif;
+body {
+  font-family: "Manrope", sans-serif;
 }
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: hsl(210, 46%, 95%);
-    height: 100vh;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(210, 46%, 95%);
+  height: 100vh;
 }
-.card{
-    display: flex;
-    background-color: #ffffff;
-    width: 800px;
-    border-radius: 10px;
+.card {
+  display: flex;
+  background-color: #ffffff;
+  width: 800px;
+  border-radius: 10px;
+  position: relative;
 }
-.card .containt-left img{
+.card .containt-left img {
   width: 100%;
   height: 100%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-.containt-right{
-    padding: 30px;
-    color: hsl(214, 17%, 51%);
-    width: 100%
-    
+.containt-right {
+  padding: 30px;
+  color: hsl(214, 17%, 51%);
+  width: 100%;
 }
-.containt-right h2{
-    color:  hsl(217, 19%, 35%);
-    font-size: 18px;
+.containt-right h2 {
+  color: hsl(217, 19%, 35%);
+  font-size: 18px;
 }
-.containt-right .paragraph{
-    font-size: 15px;
-    margin: 15px 0;
-    line-height: 25px;
+.containt-right .paragraph {
+  font-size: 15px;
+  margin: 15px 0;
+  line-height: 25px;
 }
-.containt-right .creator{
-    display: flex;
-    justify-content: space-between;
- 
+.containt-right .creator {
+  display: flex;
+  justify-content: space-between;
 }
-.containt-right .creator .creator-name .name{
-    font-weight: bold;
-    font-size: 13px;
-    color:  hsl(217, 19%, 35%);
-    margin-bottom: 5px;
+.containt-right .creator .creator-name .name {
+  font-weight: bold;
+  font-size: 13px;
+  color: hsl(217, 19%, 35%);
+  margin-bottom: 5px;
 }
-.containt-right .creator .creator-name .name span{
-    color: hsl(212, 23%, 69%);
-    
+.containt-right .creator .creator-name .name span {
+  color: hsl(212, 23%, 69%);
 }
-.containt-right .creator-name{
-    display: flex;
-    align-items: center;    
+.containt-right .creator-name {
+  display: flex;
+  align-items: center;
 }
-.containt-right  .creator-name .img{
-    width: 40px;
-    border-radius: 50%;
-    margin-right: 15px;
+.containt-right .creator-name .img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
 }
-.img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background-color: hsl(210, 46%, 95%);
-    width: 40px;
-    height: 40px;
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: hsl(210, 46%, 95%);
+  width: 40px;
+  height: 40px;
 }
-.img img{
-    
-    width: 20px;
-    height: 20px;
+.btn-share  {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+}
+
+.balao {
+  background-color: hsl(217, 19%, 35%);
+  width: max-content;
+  padding: 8px 30px;
+  border-radius: 8px;
+  gap: 5px;
+  position: absolute;
+  right: -40px;
+  bottom: 90px;
+  visibility: hidden;
+}
+
+.balao a {
+  color: #ffffff;
+  margin-left: 7px;
+}
+
+.mostrar{
+    visibility: visible;
 }
 
 
